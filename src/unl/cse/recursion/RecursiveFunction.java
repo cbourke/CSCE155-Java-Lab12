@@ -22,7 +22,7 @@ public class RecursiveFunction {
 		time = ( end - start );
 		
 		long seconds = TimeUnit.SECONDS.convert(time, TimeUnit.MILLISECONDS );
-		Long converter = new Long( seconds );
+		Long converter = Long.valueOf( seconds );
 		
 		totalSeconds = converter.intValue();
 		
