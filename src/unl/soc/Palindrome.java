@@ -42,7 +42,7 @@ public class Palindrome {
 
 		// Implement this method to determine if the String passed in is a
 		// palindrome or not.
-
+		
 		return false;
 
 	}

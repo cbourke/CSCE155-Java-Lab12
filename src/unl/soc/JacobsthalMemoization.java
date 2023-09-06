@@ -51,10 +51,10 @@ public class JacobsthalMemoization {
 
 		double time = (end - start) / 1000.0;
 
-		System.out.printf("Iterative:   Jacobsthal(%d) = %lld\n", n, iterativeResult);
-		System.out.printf("Memoization: Jacobsthal(%d) = %lld\n", n, memoizationResult);
+		System.out.printf("Iterative:   Jacobsthal(%d) = %d\n", n, iterativeResult);
+		System.out.printf("Memoization: Jacobsthal(%d) = %d\n", n, memoizationResult);
 
-		System.out.printf("Total Computation Time: %d seconds\n", time);
+		System.out.printf("Total Computation Time: %f seconds\n", time);
 
 	}
 
